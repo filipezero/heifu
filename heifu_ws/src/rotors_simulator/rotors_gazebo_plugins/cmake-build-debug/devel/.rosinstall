@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jmcarvalho/tese_doutoramento_ws/src/Gazebo_and_moveit/rotors_simulator/rotors_gazebo_plugins/cmake-build-debug/devel/setup.sh

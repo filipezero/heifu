@@ -1,0 +1,33 @@
+<package>
+  <name>heifu</name>
+  <version>0.0.1</version>
+
+  <description>This package contains a URDF model for HEIFU.</description>
+  <author email="falmeida@pdmfc.com">Filipe Almeida</author>
+
+  <maintainer email="falmeida@pdmfc.com">Filipe Almeida</maintainer>
+
+  <license>BSD</license>
+  <url></url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roslaunch</build_depend>
+  <build_depend>rotors_gazebo_plugins</build_depend>
+  <build_depend>rotors_model</build_depend>
+  <build_depend>rotors_control</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>mav_msgs</build_depend>
+
+  <run_depend>mav_msgs</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>rotors_gazebo</run_depend>
+  <run_depend>rotors_gazebo_plugins</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
